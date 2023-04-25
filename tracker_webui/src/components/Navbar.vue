@@ -49,9 +49,9 @@ export default defineComponent({
 
 <template>
   <nav
-    class="bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200"
+    class="fixed bg-gray-900 w-full z-20 top-0 border-b border-gray-200"
   >
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div class="flex flex-wrap items-center justify-around py-4">
       <a href="/todo" class="flex items-center">
         <img src="/favicon-32x32.png" class="h-8 mr-3" alt="Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap text-white"

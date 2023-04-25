@@ -8,7 +8,6 @@ import ListTask from '@/components/ListTask.vue'
   <div>
     <Navbar />
     <main>
-      <br /><br /><br />
       <CreateTask />
       <ListTask />
     </main>
